@@ -1,6 +1,6 @@
 import React from "react";
 
-function Registration() {
+function page() {
   return (
     <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8">
       <div className="sm:mx-auto sm:w-full sm:max-w-sm">
@@ -114,4 +114,4 @@ function Registration() {
   );
 }
 
-export default Registration;
+export default page;
