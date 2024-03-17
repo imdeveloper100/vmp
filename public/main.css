@@ -1,0 +1,18 @@
+.buttons {
+  /* margin-top: 24px; */
+  display: flex;
+  justify-content: center;
+  position: aboslute;
+  top: 40px;
+  @media screen and (min-width: 480px) {
+    position: relative;
+  }
+}
+.main-dev {
+}
+.steps-dev {
+  
+  @media screen and (min-width: 480px) {
+    width: 100%;
+  }
+}
