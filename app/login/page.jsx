@@ -1,4 +1,5 @@
 import React from "react";
+import BackToHomeButton from "../components/BackToHomeButton";
 
 function page() {
   return (

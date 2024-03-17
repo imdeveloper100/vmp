@@ -4,11 +4,9 @@ import { LeftOutlined, } from "@ant-design/icons";
 
 function BackToHomeButton() {
   return (
-    <Button key="signUp" type="link" className="absolute top-4 left-4">
-    <Space>
+    <Button key="signUp" type="link" className="flex items-center absolute top-4 left-4">
       <LeftOutlined />
       Back to Home
-    </Space>
   </Button>
   )
 }
