@@ -19,13 +19,13 @@ const Hero = () => {
         <div>
           <div className="flex gap-4 justify-center mb-4 p-4">
             <p className="bg-blue-600 rounded-3xl px-4 py-2 w-fit text-white">
-              <span class="wave">👋</span> Hi, There
+              <span className="wave">👋</span> Hi, There
             </p>
             <p className="bg-black rounded-3xl px-4 py-2 w-fit text-white">
               Welcome to VMP
             </p>
           </div>
-          <h1 class="main-slogn svg text-center shadow">
+          <h1 className="main-slogn svg text-center shadow">
             Perfect Place to buy and sell <br /> You Dream Car & reliable spare
             parts
           </h1>
@@ -39,7 +39,6 @@ const Hero = () => {
                 defaultValue={category}
                 size="large"
                 variant="borderless"
-                htmlName={"category"}
                 name={"category"}
                 className="select-search-category w-[180px] h-full"
                 options={[
@@ -82,7 +81,7 @@ const Hero = () => {
               in="SourceGraphic"
               stdDeviation="5"
               result="blur"
-              color-interpolation-filters="sRGB"
+              colorInterpolationFilters="sRGB"
             />
             <feColorMatrix
               in="blur"
