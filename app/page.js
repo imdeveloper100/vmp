@@ -6,6 +6,7 @@ import AdsPosting from "./adsPosting/page";
 import CarDetails from "./components/adsPosting/CarDetails";
 import AdsPostingLayout from "./adsPostingLayout/page"
 import UserProfile from "./profile/page"
+import LandingPage from "./landing/page"
 import "../public/main.css";
 
 
@@ -18,7 +19,9 @@ export default function Home() {
       {/* <AdsPosting /> */}
       {/* <CarDetails /> */}
       {/* <AdsPostingLayout /> */}
-      <UserProfile />
+      {/* <UserProfile /> */}
+      <LandingPage />
+      
 
     </>
   );
