@@ -6,4 +6,9 @@
     .container {
         max-width: 95% !important;
     }
+    .cardsGrid{
+    grid-template-columns: repeat(auto-fit, minmax(250px, 2fr));
+
+    }
 }
+
