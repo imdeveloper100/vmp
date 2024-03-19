@@ -3,6 +3,8 @@ import React from "react";
 import Image from "next/image";
 import { useState } from "react";
 
+import { EditOutlined } from '@ant-design/icons';
+
 const Dashboard = () => {
   const user = {
     name: "Danial Simmon",
@@ -52,7 +54,7 @@ const Dashboard = () => {
             onClick={handleEdit}
             className="bg-blue-500 text-white px-4 py-2 rounded mr-2 md:flex-flow-cols"
           >
-            {isEditing ? "Save" : "Edit"}
+            {isEditing ? "Save" : <EditOutlined />}
           </button>
           <button
             onClick={handleShare}

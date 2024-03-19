@@ -19,8 +19,8 @@ export default function Home() {
       {/* <AdsPosting /> */}
       {/* <CarDetails /> */}
       {/* <AdsPostingLayout /> */}
-      {/* <UserProfile /> */}
-      <LandingPage />
+      {/* <LandingPage /> */}
+      <UserProfile />
       
 
     </>
