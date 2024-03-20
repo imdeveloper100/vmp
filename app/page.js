@@ -21,8 +21,8 @@ export default function Home() {
       {/* <CarDetails /> */}
       {/* <AdsPostingLayout /> */}
       {/* <LandingPage /> */}
-      {/* <UserProfile /> */}
-      <Card />
+      <UserProfile />
+      
       
 
     </>
