@@ -26,7 +26,7 @@ const Hero = () => {
             </p>
           </div>
           <h1 className="main-slogn svg text-center shadow">
-            Perfect Place to buy and sell <br /> You Dream Car & reliable spare
+            Perfect Place to buy and sell <br /> Your Dream Car & reliable spare
             parts
           </h1>
           <div className="landing-cta flex gap-4 mt-4 justify-center ">

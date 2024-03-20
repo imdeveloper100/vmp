@@ -7,7 +7,7 @@ import { EditOutlined } from '@ant-design/icons';
 
 const ProfileHeader = () => {
   const user = {
-    name: "Danial Simmon",
+    name: "Laura Simmons",
     dateOfBirth: "7th July 2000",
     gender: "Female",
     description:
