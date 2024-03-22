@@ -8,6 +8,7 @@ import AdsPostingLayout from "./adsPostingLayout/page"
 import UserProfile from "./profile/page"
 import LandingPage from "./landing/page"
 import Card from "./components/card";
+import ProductDetails from "./productDetails/page"
 import "../public/main.css";
 
 
@@ -20,8 +21,10 @@ export default function Home() {
       {/* <AdsPosting /> */}
       {/* <CarDetails /> */}
       {/* <AdsPostingLayout /> */}
-      {/* <LandingPage /> */}
-      <UserProfile />
+      <LandingPage />
+      {/* <UserProfile /> */}
+      {/* <PopMessage /> */}
+      {/* <ProductDetails /> */}
       
       
 
