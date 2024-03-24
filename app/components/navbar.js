@@ -17,8 +17,8 @@ const Navbar = () => {
                         <div className='flex gap-2'>
 
                             <button className='bg-white border-blue-500 text-blue-700  flex items-center gap-2 p-2 rounded-3xl px-4 hover:bg-blue-800  font-semibold  hover:text-white border-2 border-blue'> <PlusOutlined /> Sell</button>
-
-                            <button className='bg-blue-500 border-blue-500 text-white  flex items-center gap-2 p-2 rounded-3xl px-4 hover:bg-blue-800  font-semibold   border-2 border-blue'>Login</button>
+                            <a href='/login'><button className='bg-blue-500 border-blue-500 text-white  flex items-center gap-2 p-2 rounded-3xl px-4 hover:bg-blue-800  font-semibold   border-2 border-blue'>Login</button></a>
+                            
                         </div>
                     </div>
                 </div>

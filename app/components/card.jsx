@@ -83,7 +83,7 @@ function Card() {
               className="my-2 group relative border border-stone-200 rounded-md p-3"
             >
               <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none lg:h-50">
-                <a href="">
+                <a href="/productDetails">
                   {" "}
                   <img
                     src={product?.imageSrc}
